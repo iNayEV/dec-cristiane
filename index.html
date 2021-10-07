@@ -4,25 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>AEA 0</title>
   </head>
   <body>
-    <p>1. Què és Vanilla Javascript?</p>
+    <h3>1. Què és Vanilla Javascript?</h3>
     <p>
+      Eina que intenta ensenyar els grans avantatges de no utilitzar frameworks
+      i potenciar les nostres aplicacions sense necessitat d'afegir massa
+      arxius.
+    </p>
+    <h3>
       2. Diferència els ECMA Script que pertanyen a Javascript i a Javascript
       Modern.
-    </p>
-    <p>3. Qui va crear Javascript? De quina empresa era?</p>
-    <p>4. Quina empresa hi ha actualment darrera de Javascript?</p>
-    <p>5. Què és una arrow function? A quin ES apareix (quin any).</p>
-    <p>6. Què és un callback? Posa un exemple.</p>
+    </h3>
+    <h3>3. Qui va crear Javascript? De quina empresa era?</h3>
+    <p>Brendan EIch va crear Javascript i era de l'empresa Netscape.</p>
+    <h3>4. Quina empresa hi ha actualment darrera de Javascript?</h3>
+    <h3>5. Què és una arrow function? A quin ES apareix (quin any).</h3>
     <p>
+      L'arrow function és una funció que permeteix reduïr el text per realitzar
+      una sintaxis y va ser introduït a ES6.
+    </p>
+    <h3>6. Què és un callback? Posa un exemple.</h3>
+    <p>
+      Callback és una funció que s'executa quan es crida i no quan es definit.
+      <p>Exemple:</p>
+      <p>function callback() {</p>
+        <p>myDisplayer("Hola");</p>
+      <p>}</p>
+      <br>
+      <p>callback();</p>
+    </p>
+    <h3>
       7. Què és una promesa en Javascript (promise). Posa un exemple. Explica
       també la diferència entre la programació síncrona i la programació
       asíncrona, posa un exemple.
-    </p>
-
-    <div class="container"></div>
-    <script src="app.js"></script>
+    </h3>
+    <div>
+      <p>Una promesa és un objecte de Javascript que enllaça la producció de codi i el consum de codi.</p>
+      <p>Exemple:</p>
+      <p>let myPromise = new Promise(function(myResolve, myReject) {</p>
+      <p>myResolve();</p>
+      <p>myReject();</p>
+      <p>});</p>
+      <p>myPromise.then(</p>
+      <p>function(value)</p>
+      <p>function(error)</p>
+      <p>);</p>
+    </div>
   </body>
 </html>
